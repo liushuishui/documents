@@ -1,0 +1,35 @@
+= 进阶方案
+Author Name
+:doctype: book
+:encoding: utf-8
+:lang: en
+:toc: left
+:numbered:
+
+# 进阶方案
+
+## 专业
+
+|===
+|名称|计划时长/天|开始时间|内容|备注
+|odoo|15|2020-09-16|odoo框架系统学习|-
+|postgresql|15|-|-|-
+|redis|15|-|-|-
+|ampq|15|-|-|RabbitMQ
+|===
+
+### odoo进程
+
+|===
+|时间|完成情况|内容|备注
+|odoo|-|odoo框架系统学习|-
+|===
+
+## 业余
+
+|===
+|名称|计划时长/天|开始时间|内容|备注
+|axure|30|-|可用axure换基本的原型及交互|-
+|docker|15|-|docker的实际部署|-
+|nginx|15|-|基于docker部署项目|-
+|===
