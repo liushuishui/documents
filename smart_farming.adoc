@@ -1,0 +1,54 @@
+= 智慧农场API文档
+
+== version -- 1.0
+
+== 请求地址
+
+* 正式环境：http://ksher.roar.work
+* 测试环境：http://hbffwh.com
+
+== 1. 下发控制命令
+
+=== 1.1 说明
+
+* 由外部（PC，小程序等）向设备下发控制命令
+
+=== 1.2 接口详情
+
+* URL: {host}/farm/control
+
+* METHOD: GET
+
+* 请求体
+
+[width="100%",options="header,footer"]
+|====================
+| Parameters | Type | Optional/Mandatory | Comments
+| equip_code | string | M | 设备ID
+| control_code | string | M | 控制器ID
+| status | bool | M | 状态，true代表开；false代表关
+|====================
+
+```json
+{
+    "equip_code": "C0A8021D",
+    "control_code": "0110",
+    "status": false,
+}
+```
+
+* 返回体
+
+[width="100%",options="header,footer"]
+|====================
+| Parameters | Type | Optional/Mandatory | Comments
+| code | int | M | 状态码
+| msg | sting | M | 状态说明
+|====================
+
+```json
+{
+    "code": 0,
+    "msg": "success"
+}
+```
